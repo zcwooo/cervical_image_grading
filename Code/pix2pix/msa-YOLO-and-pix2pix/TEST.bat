@@ -1,0 +1,1 @@
+python test.py --dataroot ./datasets/cell2book/testA --name cyclegan --model test --no_dropout

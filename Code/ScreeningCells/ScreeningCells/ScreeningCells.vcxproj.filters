@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c75b9d7c-452a-4867-a585-e8aee4a05f51}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{249f81db-516d-4a60-9882-d3fd674e412c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{5323114f-c462-496c-8a26-5f0586629382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\xml">
+      <UniqueIdentifier>{495d8e73-881d-481f-83d1-3ca5ee46318e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\xmls">
+      <UniqueIdentifier>{6467fa3a-9b22-4ceb-89c5-43f2f4f6dd23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libharu">
+      <UniqueIdentifier>{7b24f64a-5b3f-4c72-896d-4c8aa97d2a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qImgLib2User">
+      <UniqueIdentifier>{d16c487a-dbba-4277-a7ae-b607b90ceb46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dog">
+      <UniqueIdentifier>{1bfa1c32-b585-429e-96fd-bde814535f8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PopWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreeningCells.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginSkipWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlgWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CasesMgrWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GramWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagramWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientInfoWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PopMenuSettingWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PopMenuInfoWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PopExitWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListTextElementUIEX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyPwdWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dog\errorprinter.cpp">
+      <Filter>dog</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuWndEx.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libtripledes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md5_encode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingPathWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ControlEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PopWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginSkipWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlgWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CasesMgrWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GramWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagramWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PatientInfoWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="patientinfo_t.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_3dmeasure.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_annotation.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_catalog.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_conf.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_config.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_consts.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_destination.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_doc.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_encoder.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_encrypt.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_encryptdict.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_error.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_exdata.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_ext_gstate.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_font.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_fontdef.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_gstate.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_image.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_info.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_list.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_mmgr.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_namedict.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_objects.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_outline.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_page_label.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_pages.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_pdfa.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_streams.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_types.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_u3d.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_utils.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libharu\include\hpdf_version.h">
+      <Filter>libharu</Filter>
+    </ClInclude>
+    <ClInclude Include="PopMenuSettingWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PopMenuInfoWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qImgLib2User\qImgLib.h">
+      <Filter>qImgLib2User</Filter>
+    </ClInclude>
+    <ClInclude Include="PopExitWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListTextElementUIEX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyPwdWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dog\errorprinter.h">
+      <Filter>dog</Filter>
+    </ClInclude>
+    <ClInclude Include="dog\vendor_code.h">
+      <Filter>dog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Gemalto\Sentinel LDK 7.10\API\Runtime\Cpp\hasp_api.h">
+      <Filter>dog</Filter>
+    </ClInclude>
+    <ClInclude Include="dog\hasp_api_cpp.h">
+      <Filter>dog</Filter>
+    </ClInclude>
+    <ClInclude Include="dog\hasp_api.h">
+      <Filter>dog</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="const_calc_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CScan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuWndEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libtripledes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md5_encode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingPathWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ScreeningCells.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Flash11.tlb">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Res\ScreeningCells.zip">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\libharu\include\.gitignore">
+      <Filter>libharu</Filter>
+    </None>
+    <None Include="..\libharu\include\hpdf_config.h.cmake">
+      <Filter>libharu</Filter>
+    </None>
+    <None Include="..\libharu\include\Makefile.am">
+      <Filter>libharu</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ScreeningCells.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\bin\skin\ScreeningCells\main.xml">
+      <Filter>Resources\xml</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\ScreeningCells\lan_cn.xml">
+      <Filter>Resources\xml</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\ScreeningCells\lan_en.xml">
+      <Filter>Resources\xml</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\ScreeningCells\listitem.xml">
+      <Filter>Resources\xml</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\ScreeningCells\menu.xml">
+      <Filter>Resources\xml</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\ScreeningCells\msg.xml">
+      <Filter>Resources\xml</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\ScreeningCells\popup.xml">
+      <Filter>Resources\xml</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\ScreeningCells\res.xml">
+      <Filter>Resources\xml</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\ScreeningCells\skin.xml">
+      <Filter>Resources\xml</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\ScreeningCells\splash.xml">
+      <Filter>Resources\xml</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\ScreeningCells\tileitem.xml">
+      <Filter>Resources\xml</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\ScreeningCells\treeitem.xml">
+      <Filter>Resources\xml</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\ScreeningCells\xmls\login.xml">
+      <Filter>Resources\xmls</Filter>
+    </Xml>
+    <Xml Include="..\bin\skin\ScreeningCells\xmls\login_skip.xml">
+      <Filter>Resources\xmls</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+    <Image Include="Res\SelectionCells.ico" />
+  </ItemGroup>
+</Project>
